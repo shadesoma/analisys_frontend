@@ -29,6 +29,7 @@ const Devices = () => {
         textColor="primary"
         onChange={handleChange}
         aria-label="disabled tabs example"
+        style={{marginBottom: '45px'}}
       >
         <Tab label="Sensors Data"/>
         <Tab label="Analytics"/>
