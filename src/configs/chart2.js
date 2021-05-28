@@ -6,7 +6,7 @@ const getRandomData = (num) => {
   return data
 }
 
-const chartConfig1 = {
+const chartConfig2 = {
   data: {
     labels: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120],
     datasets: [
@@ -43,4 +43,4 @@ const chartConfig1 = {
     },
   },
 };
-export default chartConfig1;
+export default chartConfig2;
