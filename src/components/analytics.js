@@ -1,15 +1,15 @@
 import React from 'react';
 import ChartesComponent from './chartesComponent';
-import chartConfig1 from '../configs/chart1';
-import chartConfig2 from '../configs/chart2';
-import chartConfig3 from '../configs/chart3';
+import chartConfig4 from '../configs/chart4';
+import chartConfig5 from '../configs/chart5';
+import chartConfig6 from '../configs/chart6';
 
 const Analytics = () => {
   return (
     <div>
-      <ChartesComponent chartConfig={chartConfig1} title={'Accelerometer'} />
-      <ChartesComponent chartConfig={chartConfig2} title={'Accelerometer'} />
-      <ChartesComponent chartConfig={chartConfig3} title={'Accelerometer'} />
+      <ChartesComponent chartConfig={chartConfig4} title={'Accelerometer'} />
+      <ChartesComponent chartConfig={chartConfig5} title={'Accelerometer'} />
+      <ChartesComponent chartConfig={chartConfig6} title={'Accelerometer'} />
     </div>
   );
 };
